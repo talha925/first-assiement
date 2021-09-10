@@ -1,0 +1,56 @@
+void main() {
+
+  var studentname = "Talha";
+  print(studentname);
+  var fathername = "Raheel";
+  print(fathername);
+  var cls = 10;
+  print(cls);
+  var sub1 = "English";
+  var english = 60;
+print('${sub1} : ${english}');
+  var sub2 = "Mathematics";
+  var mathematics = 95;
+  print('${sub2} : ${mathematics}');
+  var sub3 = "Urdu";
+  var urdu = 70;
+  print('${sub3} : ${urdu}');
+  var sub4 = "Physics";
+  var physics = 75;
+  print('${sub4} : ${physics}');
+  var sub5 = "Islamiat";
+  var islamiat = 81;
+  print('${sub5} : ${islamiat}');
+  var obtainedmarks = (english + mathematics + urdu + physics + islamiat);
+  print(obtainedmarks);
+  var totalmarks = 500;
+  print(totalmarks);
+  var percentage = (obtainedmarks / totalmarks * 100);
+  print(percentage);
+  var grd = "Grade A";
+  print(grd);
+  if(obtainedmarks < totalmarks){
+    print("Clear");
+  }else{
+    print("Fail");
+  }
+
+  }
+
+
+
+CONSOLE
+
+Talha
+Raheel
+10
+English : 60
+Mathematics : 95
+Urdu : 70
+Physics : 75
+Islamiat : 81
+381
+500
+76.2
+Grade A
+Clear
